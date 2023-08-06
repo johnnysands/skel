@@ -1,0 +1,6 @@
+{
+    "project_name": "Project X",
+    "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '_') }}",
+    "package_name": "{{ cookiecutter.project_name|lower|replace(' ', '_') }}",
+    "project_short_description": "{{ cookiecutter.project_name }}"
+}
